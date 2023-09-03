@@ -1,0 +1,10 @@
+.progress{
+    width: 0%;
+    animation: width 4s infinite linear;
+}
+
+@keyframes width {
+    to{
+        width: 100%;
+    }
+}
